@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--3D Object Presentation Profile-->
+<Profile Version="1.23A">
+  <Object Name="saw_hemi" Model="Hemispherical" Rows="4" Columns="24" Width="5184" Height="3456" Inertia="True" FreeRotate="False">
+    <Space Width="4000" Height="4000" />
+    <Frame Draw="False" Style="NA" Attribute="NA" Color="Black" Background="FFFFFFFF" Width="4000" Height="4000" OffsetX="0" OffsetY="0" />
+    <Controls Folder="Vivid" Left="200" Bottom="100" Dimension="300" Move="Switch" Zoom="Switch" Play="Switch" Page="Text" Show="False" AutoPlay="False" />
+    <Description Work="7D48385349" UICulture="en-US" Application="NA">
+    </Description>
+    <Controller PhaseIn="0" Repeatness="True" RotateTime="20" Direction="CW" Flip="True" />
+    <InitView Rows="1" Columns="7" Width="600" Height="400" ZoomMin="1" ZoomInit="10" ZoomMax="60" ZoomFactor="50" />
+    <ContextMenu Text="">
+    </ContextMenu>
+    <Image2D Number2D="0" />
+  </Object>
+  <Page Title="Home" Time="5">
+    <Geo>
+      <Angles T="0" P="0" W="0" />
+      <Scale Z="10" />
+      <Pan X="0" Y="0" />
+    </Geo>
+  </Page>
+</Profile>

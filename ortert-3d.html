@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html>
+<!--
+    ========== How to generate dynamic web pages ==============
+    
+    1. Add codes in <body></body> sections as shown in the following source.
+
+    2. The first two <script> tags assign absolute or relative path names for
+        jQuery.js and HTML5Loader.js.
+
+    3. The attribute "autoAllocation:true" will adjust the div "Frame" at
+        the center of the display device.  If "autoAllocation:false", the Frame's
+        upper left corner will be decided by the top and left parameters in style
+        and the dimensions are decided by width and height parameters.
+
+    4. At the last <script> tag, pathProfiles is the path name of the profile.xml.
+    
+    ==================================================
+-->
+<head>
+    <title></title>
+</head>
+<body>
+    <div id="Frame" style="position:relative; width: 400px; height: 400px; top: 0px; left: 0px;"><img class="animateThumbnailImg" src="./html5/icon.jpg" style="visibility:hidden;"/></div>
+    <script type="text/javascript" src="./html5/jQuery.js"></script>
+    <script type="text/javascript" src="./html5/HTML5Loader.js" id="animateScript"></script>
+    <script type="text/javascript">
+        jQuery(function ($) {
+            $('#Frame').animate3D({
+                autoAllocation: true,
+                pathProfiles: './html5/Profile.xml'
+            });
+        });
+    </script>
+</body>
+</html>
