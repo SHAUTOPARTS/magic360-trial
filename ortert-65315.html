@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SH 65315 360</title>
+        <meta name="viewport" content="width=device-width, initial- cale=1.0"/>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="./ortert/creator.css" />
+        <script src="./ortert/jquery.js"></script>
+        <script src="./ortert/jquery.plugin.js"></script>
+        <script src="./ortert/creator.js"></script>
+</head>
+    <body>
+        <div id="Frame" class="animate-creator-container" style="width:540px; height:960px;"></div>         
+        <script type="text/javascript">
+            jQuery(function ($) {
+                $("#Frame").animate360(
+{
+    "controls": {
+        "desktop": {
+            "align": "center",
+            "autohide": true,
+            "backgroundcolor": "#4a89dc",
+            "drag": "none",
+            "foregroundcolor": "#000000",
+            "fullscreen": "none",
+            "guide": false,
+            "hint": false,
+            "link": {
+                "display": false,
+                "uri": ""
+            },
+            "magnifier": "combine",
+            "palette": false,
+            "share": {
+                "email": true,
+                "facebook": true,
+                "qrcode": true,
+                "twitter": true,
+                "weibo": false
+            },
+            "spin": "separate",
+            "style": "line",
+            "zoom": "separate"
+        },
+        "mobile": {
+            "align": "center",
+            "autohide": true,
+            "backgroundcolor": "#4a89dc",
+            "drag": "none",
+            "foregroundcolor": "#000000",
+            "fullscreen": "none",
+            "guide": false,
+            "link": {
+                "display": false,
+                "uri": ""
+            },
+            "magnifier": "separate",
+            "palette": false,
+            "share": {
+                "email": false,
+                "facebook": false,
+                "qrcode": false,
+                "twitter": false,
+                "weibo": false
+            },
+            "spin": "none",
+            "style": "line",
+            "zoom": "separate"
+        }
+    },
+    "initview": {
+        "column": 1,
+        "partial": true
+    },
+    "layout": {
+        "center": true,
+        "fit": true
+    },
+    "object": {
+        "columns": 12,
+        "height": 540,
+        "model": "cylindrical",
+        "name": "TireTest-360",
+        "sector": false,
+        "width": 960
+    },
+    "palette": [
+    ],
+    "path": {
+        "extension": ".jpg",
+        "icon": "./ortert/",
+        "image": "./61315/",
+        "webp": false
+    },
+    "rotation": {
+        "axis": "horizontal",
+        "direction": "cw",
+        "event": "drag",
+        "hint": true,
+        "inertia": true
+    },
+    "spin": {
+        "continue": false,
+        "direction": "cw",
+        "keepSize": true,
+        "repeat": false,
+        "time": 120,
+        "type": "spin"
+    },
+    "sprite": {
+        "eachHeight": 0,
+        "eachWidth": 0,
+        "use": false
+    },
+    "version": "v3",
+    "zoom": {
+        "magnifierevent": "drag",
+        "ratio": 3,
+        "type": "magnifier"
+    }
+}
+
+                );
+            });
+        </script>
+    </body>
+</html>
