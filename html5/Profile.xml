@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--3D Object Presentation Profile-->
 <Profile Version="1.23A">
-  <Object Name="saw_hemi" Model="Hemispherical" Rows="4" Columns="24" Width="5184" Height="3456" Inertia="True" FreeRotate="False">
+  <Object Name="saw_hemi" Model="Hemispherical" Rows="1" Columns="12" Width="5184" Height="3456" Inertia="True" FreeRotate="False">
     <Space Width="4000" Height="4000" />
     <Frame Draw="False" Style="NA" Attribute="NA" Color="Black" Background="FFFFFFFF" Width="4000" Height="4000" OffsetX="0" OffsetY="0" />
     <Controls Folder="Vivid" Left="200" Bottom="100" Dimension="300" Move="Switch" Zoom="Switch" Play="Switch" Page="Text" Show="False" AutoPlay="False" />
